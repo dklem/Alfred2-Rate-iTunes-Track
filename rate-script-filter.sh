@@ -10,10 +10,15 @@ if [[ $iTunesPlaying == true ]]; then
 	rating=$(osascript -e 'tell application "iTunes" to rating of current track')
 
 	case $rating in
+		10) stars="½☆☆☆☆";;
 		20) stars="★☆☆☆☆" ;;
+		30) stars="★½☆☆☆" ;;
 		40) stars="★★☆☆☆" ;;
+		50) stars="★★½☆☆" ;;
 		60) stars="★★★☆☆" ;;
+		70) stars="★★★½☆" ;;
 		80) stars="★★★★☆" ;;
+		90) stars="★★★★½" ;;
 		100) stars="★★★★★" ;;
 		*) stars="• • • • •" ;;
 	esac
