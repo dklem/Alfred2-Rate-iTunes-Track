@@ -17,6 +17,23 @@ A selection of 0 clears the track rating. Now also supports half ratings such as
 Two panels will be shown, the top panel is where the rating is entered. The bottom panel only shows the current track information. If selected, nothing will happen. Separated into two panels for rating reliability. (The query wasn't passed properly if the Applescript didn't execute completely)
 
 
-## Project Notes##
+## Project Notes
 
 Added the bash scripts separately for reference and historical purposes, and to track changes to the individual scripts. You can also rename the .alfredworkflow extension to .zip, and extract normally.
+
+
+Screenshot
+----------
+
+Alfred Window  
+![](Rate-iTunes.png)  
+
+Notification Window  
+![](Rate-iTunes-notification.png)  
+
+
+Contact
+-------
+[@davidklem](http://twitter.com/davidklem) - Follow me on Twitter
+[@klem](http://alpha.app.net/klem) - Follow me on App.net
+[GitHub](https://github.com/dklem?tab=repositories) - Check out my other workflows and projects
