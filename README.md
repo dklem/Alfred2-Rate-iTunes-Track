@@ -13,6 +13,7 @@ To enable half star ratings, issue the following command from within Terminal.
 
 Invoke Alfred 2, and type `rate <rating>` where `rating` is a number from 0-5. 
 A selection of 0 clears the track rating. Now also supports half ratings such as 0.5, 1.5, 2.5, 3.5 or 4.5 to give the appropriate half star rating. 
+You can also type “rate up”, “rate high”, or “rate +” to increase the rating of the song. “rate down/low/-“ also works ()vice versa).
 
 Two panels will be shown, the top panel is where the rating is entered. The bottom panel only shows the current track information. If selected, nothing will happen. Separated into two panels for rating reliability. (The query wasn't passed properly if the Applescript didn't execute completely)
 
